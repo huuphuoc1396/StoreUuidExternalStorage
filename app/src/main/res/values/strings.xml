@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">StoreUuidExternalStorage</string>
+    <string name="your_device_uuid">Your device UUID:\n%s</string>
+    <string name="permission_denied">Permission denied</string>
 </resources>
