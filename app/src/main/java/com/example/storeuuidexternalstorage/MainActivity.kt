@@ -67,11 +67,11 @@ class MainActivity : AppCompatActivity(), EasyPermissions.PermissionCallbacks {
             if (!documentFolder.exists()) {
                 documentFolder.mkdir()
             }
-            val dataFolder = File(documentFolder, "Data")
+            val dataFolder = File(documentFolder, "MyData")
             if (!dataFolder.exists()) {
                 dataFolder.mkdir()
             }
-            val file = File(dataFolder, "data")
+            val file = File(dataFolder, "data.txt")
             if (file.exists()) {
                 val length = file.length()
                 val bytes = ByteArray(length.toInt())
